@@ -98,3 +98,62 @@ video {
 }
 
 /* 04. Display inline et block */
+
+div.exercise-row:nth-child(3) {
+  h2 {
+    font-size: 25px;
+  }
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+  .section .year {
+    color: red;
+  }
+  .section h3 {
+    text-decoration: underline;
+  }
+  .category h2,
+  h3.year {
+    font-style: italic;
+  }
+}
+
+div.exercise-row:nth-child(5) {
+  text-align: center;
+
+  .button-wrapper {
+    display: inline-block;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+div.exercise-row:nth-child(7) {
+  a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .calltoaction {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+div.exercise-row:nth-child(9) {
+  h2 {
+    display: inline;
+  }
+  p {
+    display: inline;
+  }
+  strong {
+    display: block;
+  }
+}
